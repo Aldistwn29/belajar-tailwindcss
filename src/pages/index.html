@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Aldis — Front-end Developer</title>
+        <link rel="stylesheet" href="/src/css/output.css" />
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Stack+Sans+Text:wght@200..700&display=swap" rel="stylesheet">
+        <!-- roboto -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body class="antialiased bg-gray-100 font-StackSans">
+        <!-- Headear -->
+        <header class="flex items-center justify-between w-full h-16 px-6 bg-white shadow-md">
+            <!-- left -->
+            <div class="flex items-center space-x-3">
+                <img src="https://plus.unsplash.com/premium_photo-1707080369554-359143c6aa0b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1632" 
+                    alt="image-unsplsh"
+                    class="object-cover w-10 h-10 rounded-full"/>
+                <span class="text-lg font-bold text-gray-800">Pasir bentik News</span>
+            </div>
+            <!-- right -->
+            <nav class="flex items-center space-x-6 text-gray-600">
+                <a href="#" class="transition-colors hover:text-blue-600">Beranda</a>
+                <a href="#" class="transition-colors hover:text-blue-600">Artikel Berita</a>
+                <a href="#" class="transition-colors hover:text-blue-600">Kontak</a>
+                <a href="#" class="transition-colors hover:text-blue-600">Profile</a>
+                <div class="flex items-center space-x-2.5">
+                    <button class="px-5 py-2 text-sm font-bold transition-colors border rounded-full hover:bg-blue-news-500 hover:text-white">Sign In</button>
+                    <button class="px-5 py-2 text-sm font-bold text-white transition-colors border rounded-full bg-blue-news-600 hover:bg-blue-news-500">Sign Out</button>
+                </div>
+            </nav>
+        </header>
+        <!-- Hero section -->
+         <section class="w-full px-6 py-16">
+            <div class="container flex flex-col items-center justify-between mx-auto md:flex-row md:py-20">
+                <!-- left -->
+                 <div class="flex-1 max-w-xl mb-10 text-center md:text-left md:mb-0">
+                     <h2 class="text-3xl font-bold md:text-4xl">PASIR BENTIK NEWS</h2>
+                     <p class="mt-4 text-gray-700 md:text-lg">Portal berita yang mengahirkan informasi yang aktual dan faktual tentang pasir bentik, Dapatkan berita terkini setiap hari</p>
+                     <button class="px-2 py-2 mt-3 font-semibold text-white transition-all bg-blue-700 border rounded-md hover:bg-blue-news-600 hover:scale-105">Mulai membaca</button>
+                    </div>
+                <!-- right -->
+                 <div class="flex justify-center flex-1 md:justify-end">
+                    <img src="https://plus.unsplash.com/premium_photo-1661962862470-a03bcc2fb415?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1470" 
+                        alt="unsplash-village"
+                        class="object-cover w-full max-w-md rounded-lg shadow-lg aspect-[4/3] sm:max-w-md md:max-w-xl lg:max-w-2xl"
+                        >
+                 </div>
+            </div>
+        </section>
+        <!-- Latihan membuat card -->
+        <div class="flex flex-col space-x-2 md:flex-row">
+            <!-- Card 1 -->
+            <div class="p-4 bg-white border rounded-lg shadow-sm w-96">
+                <h1 class="text-2xl font-bold">Pasir bentik</h1>
+                <div class="mt-4 rounded-lg overflow-hidden aspect-[16/9]">
+                    <img src="https://images.unsplash.com/photo-1762112800005-a61bacb1d15c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=686" 
+                            alt="image-unsplsh" 
+                            class="object-cover w-full h-full transition-transform duration-300 hover:scale-105"/>
+                </div>
+                <p class="my-4 text-gray-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi molestiae unde laudantium omnis? Odit, nemo.</p>
+                <button class="px-3 py-2 text-white transition bg-blue-500 border rounded-md hover:bg-gray-200 hover:text-black">Read More</button>
+            </div>
+             <!-- Card 2 -->
+            <div class="p-4 bg-white border rounded-lg shadow-sm w-96">
+                <h1 class="text-2xl font-bold">Pasir bentik</h1>
+                <div class="mt-4 rounded-lg overflow-hidden aspect-[16/9]">
+                    <img src="https://images.unsplash.com/photo-1762112800005-a61bacb1d15c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=686" 
+                            alt="image-unsplsh" 
+                            class="object-cover w-full h-full transition-transform duration-300 hover:scale-105"/>
+                </div>
+                <p class="my-4 text-gray-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi molestiae unde laudantium omnis? Odit, nemo.</p>
+                <button class="px-3 py-2 text-white transition bg-blue-500 border rounded-md hover:bg-gray-200 hover:text-black">Read More</button>
+            </div>
+             <!-- Card 3 -->
+            <div class="p-4 bg-white border rounded-lg shadow-sm w-96">
+                <h1 class="text-2xl font-bold">Pasir bentik</h1>
+                <div class="mt-4 rounded-lg overflow-hidden aspect-[16/9]">
+                    <img src="https://images.unsplash.com/photo-1762112800005-a61bacb1d15c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=686" 
+                            alt="image-unsplsh" 
+                            class="object-cover w-full h-full transition-transform duration-300 hover:scale-105"/>
+                </div>
+                <p class="my-4 text-gray-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi molestiae unde laudantium omnis? Odit, nemo.</p>
+                <button class="px-3 py-2 text-white transition bg-blue-500 border rounded-md hover:bg-gray-200 hover:text-black">Read More</button>
+            </div>
+             <!-- Card 4 -->
+            <div class="p-4 bg-white border rounded-lg shadow-sm w-96">
+                <h1 class="text-2xl font-bold">Pasir bentik</h1>
+                <div class="mt-4 rounded-lg overflow-hidden aspect-[16/9]">
+                    <img src="https://images.unsplash.com/photo-1762112800005-a61bacb1d15c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=686" 
+                            alt="image-unsplsh" 
+                            class="object-cover w-full h-full transition-transform duration-300 hover:scale-105"/>
+                </div>
+                <p class="my-4 text-gray-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi molestiae unde laudantium omnis? Odit, nemo.</p>
+                <button class="px-3 py-2 text-white transition bg-blue-500 border rounded-md hover:bg-gray-200 hover:text-black">Read More</button>
+            </div>
+        </div>
+</html>
